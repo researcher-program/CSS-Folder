@@ -1,0 +1,60 @@
+/* CSS Comment */
+
+/* 
+h2 => Selector
+color => Property
+red => Value  
+
+Selector[h2,p,.arafat,#header] => {Declaration[color{Property}:blue{Value}];DeclarationDeclaration[font-size{Property}:50px{Value}]}
+*/
+
+h2{ /* =>tag */
+ color:red ; /* =>Declaration*/
+ 
+ font-size: 50px; /* =>Declaration*/
+}
+p{ /* =>tag */
+font-size: 40px;
+color: green;
+}
+.arafat{ /* =>class */
+background: #887f7f;
+border: 7px solid rgb(167, 175, 118);
+padding: 10px;
+}
+#header{ /* =>id */
+background: rgb(112, 139, 180);
+border: 3px  solid rgb(153, 73, 26);
+color:#4520ca;
+font-size: 20px;
+}
+
+
+/* CSS Grouping */
+h2,p,.arafat,#header,div{
+    text-align: center;
+}
+
+div p {
+    height: 200px;
+    width: 200px;
+    background-color: #199e3a;
+    color: #4520ca;
+    margin-bottom: 20px;
+    font-size: smaller;
+}
+.info{
+    color: #5c0308;
+}
+
+
+
+/* Class একসাথে অনেকগুলো থাকলেও id তে Unique ভাবে একটাই হয় */
+
+/*
+* => Universal / All Selector
+. => Class Selector
+ # => ID Selector
+ , => Groping Selector 
+
+*/
