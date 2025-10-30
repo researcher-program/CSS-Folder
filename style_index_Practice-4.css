@@ -1,0 +1,20 @@
+            /* External CSS */
+.hero{
+    background-color:rgb(24, 77, 122) ;
+    color:rgb(207, 196, 181) ;
+}
+#info{
+ background-color:aliceblue ;
+    color:rgb(155, 93, 18) !important;
+}
+#info2
+{
+    /* background-image: url(../../WhatsApp Image 2025-08-10 at 10.20.18_715a0b90.jpg);
+    background-size: 50px 50px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed; */
+
+    background: darkgoldenrod url(../../WhatsApp Image 2025-08-10 at 10.20.18_715a0b90.jpg) no-repeat center center
+}

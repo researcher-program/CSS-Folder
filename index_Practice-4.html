@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-16">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style_index_Practice-4.css">
+            <!-- Internal CSS -->
+<style>
+.hero{
+    background-color:rgb(46, 45, 45) ;
+    color:blueviolet ;
+}
+#info{
+ background-color:cadetblue ;
+    color:black important!;
+    color: chartreuse important!;
+}
+</style>
+
+</head>
+<body>
+    <h1>CSS Specificity And Priority</h1>
+    <h2>
+        Specificity CSS
+    </h2>
+    <p>
+       কোনো নিদিরষ্ট element/tag'র জন্যে একের অধিকবার যদি একই {Inline/Internal?External}CSS করি তাহলে কোন CSS টা কাজ করবে তা নির্ধারণ করে।
+    </p>
+
+            <!-- Inline CSS -->
+ <p class="hero" style="color:rgb(22, 134, 209) ;background-color:rgb(59, 73, 6) ;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae cupiditate nam, laboriosam impedit necessitatibus quae reiciendis consequatur explicabo expedita eum.</p>
+
+   <h2>
+    Priority CSS
+   </h2>
+   <p>
+এটি হল CSS এর  element/tag'র জন্য কার অধিকার বেশি।</p>
+<ol type="a">
+    <li> 1st Priority -> Inline; </li>
+    <li> 2nd Priority -> Internal;</li>
+    <li> 3rd Priority -> External.</li>
+</ol>
+ <p>
+ কিন্তু, এই 3টির যেকোনো 1টিকে বেশি Priority বুঝাতে "!Important" চিহ্নটি ব্যবহার করা হয়।
+ </p>
+       
+        <!-- Inline CSS -->
+ <p id="info"
+  style="color:antiquewhite ;
+ background-color:black !important;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum id repudiandae ipsum soluta harum eveniet tempore accusamus officiis maxime error.</p>
+   
+
+<!-- background image set -->
+   <div id="info2">
+
+   </div>
+</body>
+</html>
